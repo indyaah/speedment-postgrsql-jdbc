@@ -20,6 +20,13 @@
                 <artifactId>speedment-maven-plugin</artifactId>
                 <version>${speedment.version}</version>
             </plugin>
+		<dependencies>
+                    <dependency>
+                        <groupId>org.postgresql</groupId>
+                        <artifactId>postgresql</artifactId>
+                        <version>42.0.0</version>
+                    </dependency>
+                </dependencies>
         </plugins>
     </build>
 
